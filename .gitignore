@@ -23,3 +23,4 @@ module/detector/models/logs/mask_rcnn_taco_0100/mask_rcnn_taco_0100.h5
 module/detector/models/logs/taco20210529T1945/events.out.tfevents.1622292362.DESKTOP-UURENVC
 module/detector/models/logs/taco20210529T1945/mask_rcnn_taco_0100.h5
 module/detector/models/mask_rcnn_coco.h5
+module/detector/models.rar
