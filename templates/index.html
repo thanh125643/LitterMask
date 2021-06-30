@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+
+{% block header %}
+<title>Dectect Litter</title>
+{% endblock %}
+{% block body %}
+<div class="center">
+  <h1>Upload your image </h1>
+  <form method="POST" action="" enctype="multipart/form-data" hidden>
+    <input class="form-control button" id="Luuanh" type="file" id="formFile" name="file">
+    <input class="btn btn-primary" id="Truyenanh" type="submit" value="Submit">
+  </form>
+  <button class="btn chosseanh" id="chonanh">Chọn ảnh</button>
+</div>
+{% with messages = get_flashed_messages() %}
+{% if messages %}
+<ul class=flashes>
+  {% for message in messages %}
+  <li>{{ message }}</li>
+  {% endfor %}
+</ul>
+{% endif %}
+{% endwith %}
+{% if preview %}
+
+
+<div class="center">
+  <img src={{session["image"]}}>
+  <form class="mt-3" method="POST" action="/mask">
+    <p><input class="btn maskanh" type="submit" value="Mask litter on picture"></p>
+  </form>
+</div>
+
+{% endif %}
+<script>
+  $('#chonanh').click(function () {
+    $('#Luuanh').click();
+  });
+
+  $('#Luuanh').change(function (e) {
+    $('#Truyenanh').click();
+  });
+</script>
+{% endblock %}

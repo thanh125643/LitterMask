@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block header %}
+<title>Dectect Litter</title>
+{% endblock %}
+{% block body %}
+
+<div class="center">
+  <img src={{file}}>
+  <div class="center">
+    <a class="backhomepage btn" href="{{ url_for('index') }}" role="button">
+      Return to home page
+    </a>
+  </div>
+</div>
+
+
+{% endblock %}

@@ -1,0 +1,25 @@
+module/data/batch_*
+
+__pycache__/app.cpython-36.pyc
+.ipynb_checkpoints/test-checkpoint.ipynb
+.vscode/settings.json
+Bài Báo
+fileanhngoai2
+fileanhogoai
+flask_session
+
+module/__pycache__/
+module/detector/__pycache__/
+trave
+out
+out2
+ouput
+nguyen_screenshot_02.05.2021.png
+test.ipynb
+module/detector/models/logs/mask_rcnn_taco_0100.h5
+module/detector/models/logs/taco20210529T1945_meta.json
+module/detector/models/logs/mask_02/mask_rcnn_taco_0100.h5
+module/detector/models/logs/mask_rcnn_taco_0100/mask_rcnn_taco_0100.h5
+module/detector/models/logs/taco20210529T1945/events.out.tfevents.1622292362.DESKTOP-UURENVC
+module/detector/models/logs/taco20210529T1945/mask_rcnn_taco_0100.h5
+module/detector/models/mask_rcnn_coco.h5
