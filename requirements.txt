@@ -1,9 +1,2 @@
-pillow
-requests
-jupyter
-numpy
-pandas
-matplotlib
-seaborn
-graphviz
-Cython
+flask
+flask-session
