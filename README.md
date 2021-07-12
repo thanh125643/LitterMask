@@ -1,6 +1,6 @@
 # Giới thiệu
 
-Dự án nhằm mục đích sử dụng Mask R-CNN cho việc nhận diện phân vùng rác dựa trên tập dữ liệu TACO có sẵn. Sau đó xây dựng một trang web dùng để phân vùng hình ảnh đó bằng flask
+Dự án nhằm mục đích sử dụng Mask R-CNN cho việc nhận diện phân vùng rác dựa trên tập dữ liệu TACO có sẵn. Sau đó xây dựng một trang web dùng để phân vùng rác trong hình ảnh nhờ flask và model đã được train
 
 [TACO dataset](https://github.com/pedropro/TACO.git)
 
@@ -12,7 +12,7 @@ Dự án nhằm mục đích sử dụng Mask R-CNN cho việc nhận diện ph�
 
 Visual C++ 2015 Build Tools
 
-Python 3.6, Kereas 2.1.6, Tensorflow 1.12 đều được ghi trong requirement.txt và env.yml
+Python 3.6, Kereas 2.1.6, Tensorflow 1.12 đều được ghi trong bước cài đặt
 
 Cần cài đặt [Miniconda](https://docs.conda.io/en/latest/miniconda.html)
 
