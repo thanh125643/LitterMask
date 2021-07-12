@@ -27,3 +27,4 @@ module/detector/models.rar
 static/files/
 static/result/
 module/cocoapi/
+.vscode
