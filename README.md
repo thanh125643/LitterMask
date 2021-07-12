@@ -84,3 +84,5 @@ Download về giải nén vào module\detector
 ```bash
 python app.py
 ```
+
+Ứng dụng sẽ chạy trên địa chỉ sau http://127.0.0.1:5000/
