@@ -35,7 +35,7 @@ conda install -c anaconda tensorflow-gpu==1.12 keras==2.1.6
 Cho máy không có GPU(CPU):
 conda install -c anaconda tensorflow-mkl==1.12 keras==2.1.6
 
-conda install opencv imgaug==0.4 tqdm jupyter
+conda install opencv imgaug==0.4 tqdm jupyter cython
 pip install flask flask-session
 ```
 
