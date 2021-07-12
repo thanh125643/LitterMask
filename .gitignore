@@ -26,6 +26,8 @@ module/detector/models/mask_rcnn_coco.h5
 module/detector/models.rar
 static/files/*
 static/result/*
+!static/files/.gitkeep
+!static/result/.gitkeep
 module/cocoapi/
 .vscode
 cocoapi
