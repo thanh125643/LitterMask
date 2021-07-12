@@ -28,3 +28,4 @@ static/files/*
 static/result/*
 module/cocoapi/
 .vscode
+cocoapi
